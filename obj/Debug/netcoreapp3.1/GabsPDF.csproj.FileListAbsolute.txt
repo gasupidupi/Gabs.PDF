@@ -1,0 +1,13 @@
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.csprojAssemblyReference.cache
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.AssemblyInfoInputs.cache
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.AssemblyInfo.cs
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.csproj.CoreCompileInputs.cache
+C:\Dev\GabsPDF\bin\Debug\netcoreapp3.1\GabsPDF.exe
+C:\Dev\GabsPDF\bin\Debug\netcoreapp3.1\GabsPDF.deps.json
+C:\Dev\GabsPDF\bin\Debug\netcoreapp3.1\GabsPDF.runtimeconfig.json
+C:\Dev\GabsPDF\bin\Debug\netcoreapp3.1\GabsPDF.runtimeconfig.dev.json
+C:\Dev\GabsPDF\bin\Debug\netcoreapp3.1\GabsPDF.dll
+C:\Dev\GabsPDF\bin\Debug\netcoreapp3.1\GabsPDF.pdb
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.dll
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.pdb
+C:\Dev\GabsPDF\obj\Debug\netcoreapp3.1\GabsPDF.genruntimeconfig.cache

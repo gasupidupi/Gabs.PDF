@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Gabs.PDF\\Gabs.PDF.csproj",
-      "projectName": "Gabs.PDF",
-      "projectPath": "C:\\Dev\\Gabs.PDF\\Gabs.PDF.csproj",
+      "projectUniqueName": "C:\\Dev\\GabsPDF\\GabsPDF.csproj",
+      "projectName": "GabsPDF",
+      "projectPath": "C:\\Dev\\GabsPDF\\GabsPDF.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Gabs.PDF\\obj\\",
+      "outputPath": "C:\\Dev\\GabsPDF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,16 @@
 using System;
-using System.collection.Generic;
+using System.Collections.Generic;
 
 namespace Gabs.PDF {
 
-    class PDF {
+    public class PDF {
 
-        public Header header { get; }
-        public CrossReferenceTable crossReferenceTable { get; }
-        List<PDFObject> PDFObjects;
+        public Header Header { get; }
+        private CrossReferenceTable crossReferenceTable;
+        private List<PDFObject> PDFObjects;
 
         public void AddNewObject(PDFObject PDFObject) {
-            PDFObjects.add(PDFObject);
-            crossReferenceTable.objectsDictionary.Add(PDFObjects.Count+1, new CrossReferenceTableElement())
+            PDFObjects.Add(PDFObject);
         }
 
     }

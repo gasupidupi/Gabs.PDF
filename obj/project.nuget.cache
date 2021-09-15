@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cECvxHYytX6tLIWZaokPmawGCIgaP12wxaZGHkMBKyC84gc39SUJKNXkxmPx+V1FaLySOmtyyycWId9HjxjLA==",
+  "dgSpecHash": "PfoS/lQ9Cr1YCcOKYvTjp4WY3O7ZjeffYaArc6FPqtVqE06EqSpLkx/5KXj9At3HugwfXYowX3cPwj34xmiHUQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Gabs.PDF\\Gabs.PDF.csproj",
+  "projectFilePath": "C:\\Dev\\GabsPDF\\GabsPDF.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

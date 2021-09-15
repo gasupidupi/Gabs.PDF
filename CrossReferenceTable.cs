@@ -6,7 +6,7 @@ namespace Gabs.PDF {
     /// <summary>
     /// The cross reference table.
     /// </summary>
-    class CrossReferenceTable {
+    public class CrossReferenceTable {
     
         /// <summary>
         /// The number it starts counting from to reach the objectsCountLastIndex.
@@ -26,7 +26,7 @@ namespace Gabs.PDF {
         /// A dictionary containing references to all objects in the PDF.
         /// </summary>
         /// <value>A dictionary </value>
-        Dictionary<int, CrossReferenceTableElement> objectsDictionary { get; protected set; }
+        Dictionary<int, CrossReferenceTableElement> objectsDictionary { get; set; }
 
     }
 

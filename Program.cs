@@ -8,7 +8,6 @@ namespace Gabs.PDF
         {
             Console.WriteLine("Hello World!");
             var PDF = new PDF();
-            PDF.PDFObjects.add(new PdfString())
         }
     }
 }
