@@ -7,8 +7,8 @@ namespace Gabs.PDF {
     /// </summary>
     enum CrossReferenceTableElementMarker {
 
-        f, // free
-        n // in use
+        Free = 'f',
+        InUse = 'n'
 
     }
 

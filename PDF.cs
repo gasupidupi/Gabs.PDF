@@ -6,10 +6,13 @@ namespace Gabs.PDF {
     class PDF {
 
         public Header header { get; }
-        private List<PDFObject> PDFObjects;
         public CrossReferenceTable crossReferenceTable { get; }
+        List<PDFObject> PDFObjects;
 
-
+        public void AddNewObject(PDFObject PDFObject) {
+            PDFObjects.add(PDFObject);
+            crossReferenceTable.objectsDictionary.Add(PDFObjects.Count+1, new CrossReferenceTableElement())
+        }
 
     }
 

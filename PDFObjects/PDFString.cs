@@ -5,9 +5,13 @@ namespace Gabs.PDF {
     /// <summary>
     /// A PDF string object.
     /// </summary>
-    class PDFString : PDFObject {
+    public class PDFString : PDFObject {
 
         string content { get; set; }
+
+        public PDFString(string content) {
+            this.content = content;
+        }
 
     }
 

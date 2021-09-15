@@ -26,7 +26,7 @@ namespace Gabs.PDF {
         /// A dictionary containing references to all objects in the PDF.
         /// </summary>
         /// <value>A dictionary </value>
-        Dictionary<int, CrossReferenceTableElement> objectsDictionary { get; set; }
+        Dictionary<int, CrossReferenceTableElement> objectsDictionary { get; protected set; }
 
     }
 
