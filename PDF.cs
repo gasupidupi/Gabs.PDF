@@ -13,6 +13,10 @@ namespace Gabs.PDF {
             PDFObjects.Add(PDFObject);
         }
 
+        public void AddNewObjects(List<PDFObject> PDFObjects) {
+            PDFObjects.AddRange(PDFObjects);
+        }
+
     }
 
 }

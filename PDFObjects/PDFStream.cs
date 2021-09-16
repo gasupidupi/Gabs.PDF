@@ -3,16 +3,18 @@ using System.Collections.Generic;
 
 namespace Gabs.PDF {
 
-    public class PDFStream {
+    public class PDFStream : PDFObject {
 
-        int Length { get; set; }
-        string[] Filter { get; set; }
-        Dictionary<int, string>[] DecodeParams { get; set; }
-        string F { get; set; }
-        string[] FFilter { get; set; }
-        Dictionary<int, string>[] FDecodeParms { get; set; }
-        int DL { get; set; }
+        public string Text { get; set; }
+        public Tuple<int, int> Position { get; set; }
         public List<PDFObject> Resources { get; set; }
+        public override int ObjectNumber { get; set; }
+        public override int RevisionNumber { get; set; }
+
+        public PDFStream(int ObjectNumber, int RevisionNumber) : base(ObjectNumber, RevisionNumber) {
+            this.ObjectNumber = ObjectNumber;
+            this.RevisionNumber = RevisionNumber;
+        }
  
     }
 

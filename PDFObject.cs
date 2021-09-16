@@ -2,10 +2,17 @@ using System;
 
 namespace Gabs.PDF {
 
-    public interface PDFObject {
+    public abstract class PDFObject {
 
-        int ObjectNumber { get; set; }
-        int RevisionNumber { get; set; }
+        public abstract int ObjectNumber { get; set; }
+        public abstract int RevisionNumber { get; set; }
+
+        public PDFObject(int objectNumber, int revisionNumber) {
+            this.ObjectNumber = objectNumber;
+            this.RevisionNumber = revisionNumber;
+        }
+
+        
 
     }
 
